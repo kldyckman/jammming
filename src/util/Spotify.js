@@ -1,4 +1,4 @@
-import clientId from './SpotifyCredentials.js';
+const clientId = '2976a592fb5a4ad7accadbdd87401a76';
 const redirectUri = 'http://localhost:3000/';
 
 let accessToken;
