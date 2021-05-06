@@ -1,5 +1,5 @@
 import { clientId } from './SpotifyCredentials.js';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://kldyckman.github.io/jammming/';
 
 let accessToken;
 
