@@ -26,4 +26,4 @@ You can view the project in action at [https://kldyckman.github.io/jammming/](ht
 4. Modify the redirect_uri variable on line 3 of 'src/util/Spotify.js' to the URL where you will be deploying the application.
 5. Modify line 19 of 'src/util/Spotify.js' so that the third argument of the pushState() object matches the location where your application will be hosted. For example, if you will be accessing your application from your root url such as https://www.xyz.com/, then the third argument should be '/'. If your application will be located in a subfolder such as https://www.xyz.com/jamming/, then the third argument should be set to '/jammming/'.
 6. Run npm run build in the terminal to create the applications's production build.
-7. Deploy the production build to your hosting service. Instructions for common deployment scenarios and providers can be found here.
+7. Deploy the production build to your hosting service. Instructions for common deployment scenarios and providers can be found [https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md](here).
